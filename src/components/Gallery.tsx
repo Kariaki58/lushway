@@ -34,11 +34,14 @@ export function Gallery() {
             if (!imgData) return null;
             
             return (
-              <div key={idx} className="relative overflow-hidden rounded-2xl group cursor-pointer break-inside-avoid shadow-sm hover:shadow-2xl transition-all duration-500">
-                <img
+              <div key={idx} className="relative overflow-hidden rounded-2xl group cursor-pointer break-inside-avoid shadow-sm hover:shadow-2xl transition-all duration-500 bg-white">
+                <Image
                   src={imgData.imageUrl}
                   alt={imgData.description}
+                  width={600}
+                  height={800}
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                  data-ai-hint={imgData.imageHint}
                 />
                 <div className="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-6 text-center">
                   <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
