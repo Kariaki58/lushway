@@ -23,7 +23,7 @@ export function Hero() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/50 to-transparent"></div>
       </div>
 
       {/* Content */}
@@ -41,11 +41,11 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto shadow-lg shadow-accent/20">
-              Book Appointment
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto shadow-lg shadow-accent/20" asChild>
+              <a href="https://wa.me/2347068473972">Book Appointment</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 rounded-full px-10 h-14 text-lg w-full sm:w-auto backdrop-blur-sm">
-              Explore Services
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-10 h-14 text-lg w-full sm:w-auto backdrop-blur-md" asChild>
+              <a href="#services">Explore Services</a>
             </Button>
           </div>
         </div>
