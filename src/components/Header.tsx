@@ -34,7 +34,7 @@ export function Header() {
           {/* <div className="relative h-16 w-16 sm:h-20 sm:w-20">
             <Image src="/logo.png" alt="Lushways logo" fill className="object-contain" />
           </div> */}
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-1">
             <span className="font-headline text-2xl font-bold text-primary tracking-tighter">LUSHWAYS</span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-accent font-medium -mt-1">Unisex Salon & Spa</span>
           </div>

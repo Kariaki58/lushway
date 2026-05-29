@@ -30,7 +30,7 @@ export function Hero() {
       {/* Content */}
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-2xl text-white space-y-8 animate-fade-in-up">
-          <div className="space-y-4">
+          <div className="space-y-2 mt-20">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-bold leading-tight">
               Luxury Hair, <br />
               <span className="text-accent italic">Beauty & Grooming</span> <br />
