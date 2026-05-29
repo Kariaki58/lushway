@@ -2,6 +2,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Menu, X, Phone, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
@@ -27,11 +28,16 @@ export function Header() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'py-3 bg-white/80 backdrop-blur-lg shadow-sm' : 'py-6 bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-lg shadow-sm ${isScrolled ? 'py-3' : 'py-6'}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex flex-col items-center">
-          <span className="font-headline text-2xl font-bold text-primary tracking-tighter">LUSHWAYS</span>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-accent font-medium -mt-1">Unisex Salon & Spa</span>
+        <Link href="/" className="flex items-center gap-3">
+          {/* <div className="relative h-16 w-16 sm:h-20 sm:w-20">
+            <Image src="/logo.png" alt="Lushways logo" fill className="object-contain" />
+          </div> */}
+          <div className="flex flex-col">
+            <span className="font-headline text-2xl font-bold text-primary tracking-tighter">LUSHWAYS</span>
+            <span className="text-[10px] uppercase tracking-[0.3em] text-accent font-medium -mt-1">Unisex Salon & Spa</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -48,9 +54,6 @@ export function Header() {
         </nav>
 
         <div className="hidden lg:flex items-center space-x-4">
-          <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white rounded-full px-6" asChild>
-            <a href="tel:07068473972">Call Us</a>
-          </Button>
           <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-6" asChild>
             <Link href="/appointment">Book Now</Link>
           </Button>
@@ -79,10 +82,7 @@ export function Header() {
                 {link.name}
               </Link>
             ))}
-            <div className="pt-4 grid grid-cols-2 gap-4">
-              <Button variant="outline" className="border-accent text-accent w-full" asChild>
-                <a href="tel:07068473972">Call</a>
-              </Button>
+            <div className="pt-4">
               <Button className="bg-primary text-white w-full" asChild>
                 <a href="https://wa.me/2347068473972">WhatsApp</a>
               </Button>

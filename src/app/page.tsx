@@ -26,23 +26,14 @@ export default function Home() {
       <Contact />
       <Footer />
 
-      {/* Sticky Mobile Actions */}
-      <div className="fixed bottom-6 left-6 right-6 z-40 lg:hidden flex gap-4">
-        <a 
-          href="https://wa.me/2347068473972" 
-          className="flex-1 bg-[#25D366] text-white flex items-center justify-center gap-2 h-14 rounded-full shadow-2xl animate-in slide-in-from-bottom duration-500"
-        >
-          <MessageSquare className="w-5 h-5" />
-          <span className="font-bold">WhatsApp</span>
-        </a>
-        <a 
-          href="tel:07068473972" 
-          className="flex-1 bg-primary text-white flex items-center justify-center gap-2 h-14 rounded-full shadow-2xl animate-in slide-in-from-bottom duration-500 delay-100"
-        >
-          <Phone className="w-5 h-5" />
-          <span className="font-bold">Call Now</span>
-        </a>
-      </div>
+      {/* Sticky Mobile WhatsApp */}
+      <a 
+        href="https://wa.me/2347068473972" 
+        className="fixed bottom-6 right-6 z-40 lg:hidden w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl animate-in slide-in-from-bottom duration-500"
+        title="Chat with us"
+      >
+        <MessageSquare className="w-6 h-6" />
+      </a>
 
       {/* Desktop Sticky WhatsApp */}
       <a 

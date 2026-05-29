@@ -32,8 +32,11 @@ export default function AppointmentPage() {
           <p className="mt-6 text-lg text-muted-foreground font-light leading-relaxed">
             Complete your booking request with the service, date, time, and contact details. We will confirm your appointment as soon as possible.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/" className="text-sm text-primary hover:text-accent underline">Back to home</Link>
+          <div className="mt-8 flex flex-wrap gap-3 items-center">
+            <Link href="/appointment" className="text-sm text-primary hover:text-accent underline">You are on the booking page</Link>
+            <Link href="/" className="rounded-full border border-accent bg-accent/10 px-5 py-3 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white">
+              Back to home
+            </Link>
           </div>
         </div>
 
