@@ -1,4 +1,3 @@
-
 "use client"
 
 import React from 'react';
@@ -17,11 +16,11 @@ export function About() {
               {image && (
                 <Image
                   src={image.imageUrl}
-                  alt="Salon Interior"
+                  alt={image.description}
                   width={600}
                   height={800}
                   className="object-cover w-full h-[600px]"
-                  data-ai-hint="luxury salon interior"
+                  data-ai-hint={image.imageHint}
                 />
               )}
             </div>

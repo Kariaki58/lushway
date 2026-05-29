@@ -2,63 +2,63 @@
   "placeholderImages": [
     {
       "id": "hero-salon",
-      "description": "Luxurious modern salon interior with soft lighting and gold accents",
-      "imageUrl": "https://picsum.photos/seed/lushways1/1920/1080",
-      "imageHint": "luxury salon"
+      "description": "Premium minimal luxury spa reception with soft gold accents and marble floors",
+      "imageUrl": "https://picsum.photos/seed/lushways-hero/1920/1080",
+      "imageHint": "luxury spa"
     },
     {
       "id": "braiding-service",
-      "description": "Elegant African hair braiding style",
-      "imageUrl": "https://picsum.photos/seed/lushways2/800/1000",
-      "imageHint": "hair braiding"
+      "description": "Exquisite neat micro braids on a beautiful woman, high-end lighting",
+      "imageUrl": "https://picsum.photos/seed/lushways-braids/800/1000",
+      "imageHint": "elegant braids"
     },
     {
       "id": "nails-service",
-      "description": "High-end manicure and nail art",
-      "imageUrl": "https://picsum.photos/seed/lushways3/800/1000",
-      "imageHint": "manicure nails"
+      "description": "Luxury gel manicure with minimal gold leaf detail on natural nails",
+      "imageUrl": "https://picsum.photos/seed/lushways-nails/800/1000",
+      "imageHint": "luxury manicure"
     },
     {
       "id": "makeup-service",
-      "description": "Professional bridal makeup application",
-      "imageUrl": "https://picsum.photos/seed/lushways4/800/1000",
-      "imageHint": "makeup artist"
+      "description": "Soft glam bridal makeup with a radiant, high-end finish",
+      "imageUrl": "https://picsum.photos/seed/lushways-makeup/800/1000",
+      "imageHint": "bridal makeup"
     },
     {
       "id": "spa-service",
-      "description": "Relaxing facial treatment at a luxury spa",
-      "imageUrl": "https://picsum.photos/seed/lushways5/800/1000",
-      "imageHint": "facial spa"
+      "description": "Relaxing facial massage in a serene, dimly lit premium spa room",
+      "imageUrl": "https://picsum.photos/seed/lushways-spa/800/1000",
+      "imageHint": "spa facial"
     },
     {
       "id": "grooming-service",
-      "description": "Sophisticated men's haircut and beard grooming",
-      "imageUrl": "https://picsum.photos/seed/lushways6/800/1000",
-      "imageHint": "barber grooming"
+      "description": "Sharp executive male haircut and professional beard grooming",
+      "imageUrl": "https://picsum.photos/seed/lushways-grooming/800/1000",
+      "imageHint": "male grooming"
     },
     {
       "id": "gallery-1",
-      "description": "Close up of elegant braids",
-      "imageUrl": "https://picsum.photos/seed/lushways7/600/800",
-      "imageHint": "braids hair"
+      "description": "Detailed close-up of intricate knotless braids masterpiece",
+      "imageUrl": "https://picsum.photos/seed/lushways-gallery1/600/800",
+      "imageHint": "knotless braids"
     },
     {
       "id": "gallery-2",
-      "description": "Luxury pedicure setup",
-      "imageUrl": "https://picsum.photos/seed/lushways8/600/600",
-      "imageHint": "pedicure spa"
+      "description": "Premium stone pedicure treatment in a tranquil atmosphere",
+      "imageUrl": "https://picsum.photos/seed/lushways-gallery2/600/600",
+      "imageHint": "pedicure treatment"
     },
     {
       "id": "gallery-3",
-      "description": "Soft glam makeup look",
-      "imageUrl": "https://picsum.photos/seed/lushways9/600/900",
-      "imageHint": "glam makeup"
+      "description": "Elegant evening makeup look with soft nude tones and glow",
+      "imageUrl": "https://picsum.photos/seed/lushways-gallery3/600/900",
+      "imageHint": "nude makeup"
     },
     {
       "id": "gallery-4",
-      "description": "Salon interior details",
-      "imageUrl": "https://picsum.photos/seed/lushways10/600/700",
-      "imageHint": "salon interior"
+      "description": "Minimalist spa interior with fresh towels and aromatic candles",
+      "imageUrl": "https://picsum.photos/seed/lushways-gallery4/600/700",
+      "imageHint": "spa aesthetic"
     }
   ]
 }
