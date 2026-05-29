@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-salon",
+      "description": "Luxurious modern salon interior with soft lighting and gold accents",
+      "imageUrl": "https://picsum.photos/seed/lushways1/1920/1080",
+      "imageHint": "luxury salon"
+    },
+    {
+      "id": "braiding-service",
+      "description": "Elegant African hair braiding style",
+      "imageUrl": "https://picsum.photos/seed/lushways2/800/1000",
+      "imageHint": "hair braiding"
+    },
+    {
+      "id": "nails-service",
+      "description": "High-end manicure and nail art",
+      "imageUrl": "https://picsum.photos/seed/lushways3/800/1000",
+      "imageHint": "manicure nails"
+    },
+    {
+      "id": "makeup-service",
+      "description": "Professional bridal makeup application",
+      "imageUrl": "https://picsum.photos/seed/lushways4/800/1000",
+      "imageHint": "makeup artist"
+    },
+    {
+      "id": "spa-service",
+      "description": "Relaxing facial treatment at a luxury spa",
+      "imageUrl": "https://picsum.photos/seed/lushways5/800/1000",
+      "imageHint": "facial spa"
+    },
+    {
+      "id": "grooming-service",
+      "description": "Sophisticated men's haircut and beard grooming",
+      "imageUrl": "https://picsum.photos/seed/lushways6/800/1000",
+      "imageHint": "barber grooming"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Close up of elegant braids",
+      "imageUrl": "https://picsum.photos/seed/lushways7/600/800",
+      "imageHint": "braids hair"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Luxury pedicure setup",
+      "imageUrl": "https://picsum.photos/seed/lushways8/600/600",
+      "imageHint": "pedicure spa"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Soft glam makeup look",
+      "imageUrl": "https://picsum.photos/seed/lushways9/600/900",
+      "imageHint": "glam makeup"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Salon interior details",
+      "imageUrl": "https://picsum.photos/seed/lushways10/600/700",
+      "imageHint": "salon interior"
+    }
+  ]
 }
