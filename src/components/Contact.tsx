@@ -2,6 +2,7 @@
 "use client"
 
 import React from 'react';
+import Link from 'next/link';
 import { MapPin, Phone, MessageSquare, Clock, Navigation } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -71,10 +72,10 @@ export function Contact() {
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 rounded-full h-14 px-8 text-lg" asChild>
-                <a href="https://wa.me/2347068473972">Book an Appointment</a>
+                <Link href="/appointment">Book an Appointment</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white rounded-full h-14 px-8 text-lg" asChild>
-                <a href="https://maps.google.com?q=Lushways+Unisex+Salon+Uyo">
+                <a href="https://maps.app.goo.gl/iL8nXtqrUFLW56QR8">
                   <Navigation className="mr-2 w-5 h-5" /> Get Directions
                 </a>
               </Button>

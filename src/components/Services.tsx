@@ -6,46 +6,8 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { services } from '@/lib/services';
 import { Scissors, Sparkles, Heart, Wind, Eraser, Star } from 'lucide-react';
-
-const services = [
-  { 
-    title: "Braiding of Hair", 
-    image: 'braiding-service',
-    price: "From ₦5,000",
-    description: "Intricate, neat, and stylish braids for every occasion."
-  },
-  { 
-    title: "Makeup Artistry", 
-    image: 'makeup-service',
-    price: "From ₦10,000",
-    description: "Professional makeup for weddings, events, and photoshoots."
-  },
-  { 
-    title: "Nail Care & Art", 
-    image: 'nails-service',
-    price: "From ₦3,000",
-    description: "Premium manicures, gel polish, and artistic nail designs."
-  },
-  { 
-    title: "Spa & Facials", 
-    image: 'spa-service',
-    price: "From ₦15,000",
-    description: "Revitalizing skin treatments and relaxing facial massages."
-  },
-  { 
-    title: "Executive Grooming", 
-    image: 'grooming-service',
-    price: "From ₦3,500",
-    description: "Sharp haircuts, beard shaping, and hair dyeing for men."
-  },
-  { 
-    title: "Pedicure", 
-    image: 'gallery-2',
-    price: "From ₦4,000",
-    description: "Deep cleansing and foot care in a tranquil environment."
-  }
-];
 
 export function Services() {
   return (
@@ -84,10 +46,10 @@ export function Services() {
                   <p className="text-muted-foreground text-sm font-light leading-relaxed">
                     {service.description}
                   </p>
-                  <div className="pt-4 flex items-center text-primary font-semibold text-xs uppercase tracking-widest cursor-pointer hover:text-accent group-hover:translate-x-1 transition-all">
+                  {/* <div className="pt-4 flex items-center text-primary font-semibold text-xs uppercase tracking-widest cursor-pointer hover:text-accent group-hover:translate-x-1 transition-all">
                     Learn More 
                     <span className="ml-2">→</span>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             );

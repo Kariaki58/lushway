@@ -3,6 +3,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -42,7 +43,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto shadow-lg shadow-accent/20" asChild>
-              <a href="https://wa.me/2347068473972">Book Appointment</a>
+              <Link href="/appointment">Book Appointment</Link>
             </Button>
             <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto backdrop-blur-sm" asChild>
               <a href="#services">Explore Services</a>

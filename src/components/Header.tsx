@@ -52,7 +52,7 @@ export function Header() {
             <a href="tel:07068473972">Call Us</a>
           </Button>
           <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-6" asChild>
-            <a href="https://wa.me/2347068473972">Book Now</a>
+            <Link href="/appointment">Book Now</Link>
           </Button>
         </div>
 

@@ -3,61 +3,61 @@
     {
       "id": "hero-salon",
       "description": "Luxurious modern spa reception with royal blue walls, gold accents, and marble floors",
-      "imageUrl": "https://picsum.photos/seed/lushways-hero-luxe/1920/1080",
+      "imageUrl": "/image8.jpg",
       "imageHint": "luxury interior"
     },
     {
       "id": "braiding-service",
       "description": "Close up of elegant artistic hair braids on a beautiful model",
-      "imageUrl": "https://picsum.photos/seed/lushways-braids-luxe/800/1000",
+      "imageUrl": "/image1.webp",
       "imageHint": "hair braids"
     },
     {
       "id": "nails-service",
       "description": "Sophisticated gold and beige nail art on manicured hands",
-      "imageUrl": "https://picsum.photos/seed/lushways-nails-luxe/800/1000",
+      "imageUrl": "/image3.jpeg",
       "imageHint": "luxury nails"
     },
     {
       "id": "makeup-service",
       "description": "Professional high-fashion makeup application with glowing skin",
-      "imageUrl": "https://picsum.photos/seed/lushways-makeup-luxe/800/1000",
+      "imageUrl": "/image2.jpeg",
       "imageHint": "glam makeup"
     },
     {
       "id": "spa-service",
       "description": "Peaceful spa treatment room with aromatic oil and warm lighting",
-      "imageUrl": "https://picsum.photos/seed/lushways-spa-luxe/800/1000",
+      "imageUrl": "/image4.jpg",
       "imageHint": "spa room"
     },
     {
       "id": "grooming-service",
       "description": "Executive men's grooming session with professional barber",
-      "imageUrl": "https://picsum.photos/seed/lushways-grooming-luxe/800/1000",
+      "imageUrl": "/image4.jpeg",
       "imageHint": "men grooming"
     },
     {
       "id": "gallery-1",
       "description": "Stunning intricate hair braiding pattern",
-      "imageUrl": "https://picsum.photos/seed/lushways-gal1/600/800",
+      "imageUrl": "/image1.webp",
       "imageHint": "braiding art"
     },
     {
       "id": "gallery-2",
       "description": "Luxury pedicure setup with rose petals and mineral salts",
-      "imageUrl": "https://picsum.photos/seed/lushways-gal2/600/600",
+      "imageUrl": "/image5.jpeg",
       "imageHint": "pedicure spa"
     },
     {
       "id": "gallery-3",
       "description": "Elegant bridal hair styling with gold accessories",
-      "imageUrl": "https://picsum.photos/seed/lushways-gal3/600/900",
+      "imageUrl": "/image6.jpeg",
       "imageHint": "bridal hair"
     },
     {
       "id": "gallery-4",
       "description": "Modern salon interior with spacious styling stations",
-      "imageUrl": "https://picsum.photos/seed/lushways-gal4/600/700",
+      "imageUrl": "/image8.jpg",
       "imageHint": "salon interior"
     }
   ]
