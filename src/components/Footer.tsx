@@ -34,7 +34,7 @@ export function Footer() {
           <div className="space-y-6">
             <h4 className="text-xl font-headline font-bold text-accent">Quick Links</h4>
             <ul className="space-y-4">
-              {['Home', 'Services', 'Styling Concierge', 'Gallery', 'About Us', 'Contact'].map((item) => (
+              {['Home', 'Services', 'Gallery', 'About Us', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link href={`#${item.toLowerCase().replace(' ', '-')}`} className="text-white/70 hover:text-white transition-colors text-sm">
                     {item}

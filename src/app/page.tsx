@@ -11,7 +11,6 @@ import { Features } from '@/components/Features';
 import { Testimonials } from '@/components/Testimonials';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
-import { AIConcierge } from '@/components/AIConcierge';
 import { MessageSquare, Phone } from 'lucide-react';
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
-      <AIConcierge />
       <About />
       <Gallery />
       <Features />

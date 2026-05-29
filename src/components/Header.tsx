@@ -21,7 +21,6 @@ export function Header() {
   const navLinks = [
     { name: 'Home', href: '#' },
     { name: 'Services', href: '#services' },
-    { name: 'Styling Concierge', href: '#ai-concierge' },
     { name: 'About', href: '#about' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Contact', href: '#contact' },
