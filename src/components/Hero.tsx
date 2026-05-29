@@ -44,7 +44,7 @@ export function Hero() {
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto shadow-lg shadow-accent/20" asChild>
               <a href="https://wa.me/2347068473972">Book Appointment</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-10 h-14 text-lg w-full sm:w-auto backdrop-blur-md" asChild>
+            <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-primary-foreground font-semibold rounded-full px-10 h-14 text-lg w-full sm:w-auto backdrop-blur-sm" asChild>
               <a href="#services">Explore Services</a>
             </Button>
           </div>
